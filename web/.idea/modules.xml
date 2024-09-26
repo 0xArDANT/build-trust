@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/met-irl.iml" filepath="$PROJECT_DIR$/.idea/met-irl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/build-trust.iml" filepath="$PROJECT_DIR$/.idea/build-trust.iml" />
     </modules>
   </component>
 </project>

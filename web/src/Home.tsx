@@ -141,7 +141,6 @@ function Home() {
   const { status } = useAccount();
   const modal = useModal();
   const [address, setAddress] = useState("");
-  const [PartnerName, setPartnerName] = useState("");
   const [MyCompanyName, setMyCompanyName] = useState("");
   const [PartnerCompanyName, setPartnerCompanyName] = useState("");
   const [Description, setDescription] = useState("");
