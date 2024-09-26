@@ -30,6 +30,10 @@ type ChainConfig = {
 
 const allChains: ChainConfig[] = [
   {
+    chainName: "celo",
+    chain: chains.celo,
+  },
+  {
     chainName: "mainnet",
     chain: chains.mainnet,
   },
@@ -48,16 +52,7 @@ const allChains: ChainConfig[] = [
   {
     chainName: "polygon",
     chain: chains.polygon,
-  },
-  {
-    chainName: "optimism-sepolia",
-    chain: chains.optimismSepolia,
-  },
-  {
-    chainName: "base-sepolia",
-    // @ts-ignore
-    chain: chains.baseSepolia,
-  },
+  }
 ];
 
 const usableChains = allChains
